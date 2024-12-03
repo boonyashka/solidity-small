@@ -1,0 +1,25 @@
+{
+    "ProjectName": "solidity-smoke-v2 small",
+    "ProgrammingLanguages": [
+        "Php",
+        "Solidity"
+    ],
+    "ScanModules": [
+        "StaticCodeAnalysis"
+    ],
+    "SkipGitIgnoreFiles": true,
+    "PhpSettings": {
+        "UsePublicAnalysisMethod": false,
+        "DownloadDependencies": true
+    },
+    "PmTaintSettings": {
+        "UsePublicAnalysisMethod": true
+    },
+    "PygrepSettings": {
+        "CustomParameters": "--log-level debug",
+        "RulesDirPath": "rules"
+    },
+    "BlackBoxSettings": {
+        "Site": "http://localhost"
+    }
+}
